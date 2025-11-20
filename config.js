@@ -34,7 +34,7 @@ global.autoreact = toBool(process.env.AUTO_REACT);
 global.WELCOME = toBool(process.env.WELCOME);
 
 // Prefix & Other Settings
-global.prefix = process.env.PREFIX || '.';
+global.prefix = process.env.PREFIX || '/';
 global.autobio = toBool(process.env.AUTO_BIO);
 global.ANTI_TEMU = toBool(process.env.ANTI_TEMU);
 global.ANTI_TAG = toBool(process.env.ANTI_TAG);
